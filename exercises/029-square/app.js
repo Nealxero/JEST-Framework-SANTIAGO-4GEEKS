@@ -1,1 +1,3 @@
-// Write your function here
+square = (a) => {
+    return a*a
+}

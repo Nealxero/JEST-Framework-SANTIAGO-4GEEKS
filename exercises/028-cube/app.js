@@ -1,1 +1,3 @@
-// Write your function here
+cube = (a) => {
+    return (a*a*a)
+}

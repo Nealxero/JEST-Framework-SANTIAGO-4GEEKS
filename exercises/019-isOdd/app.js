@@ -1,1 +1,5 @@
-// Write your function here
+isOdd = (a) => {
+    if (a %2 > 0) return true;
+    else return false;
+}
+

@@ -1,1 +1,3 @@
-// Write your function here
+average = (a, b) => {
+    return (a+b)/2;
+}

@@ -5,4 +5,8 @@ var obj = {
 }
 function removeNumbersLessThan(num, obj) {
     // your code here
+    for (var key in obj){
+        if (!isNaN(obj[key]) && obj[key] < num )
+        delete obj[key];
+    }
 }
